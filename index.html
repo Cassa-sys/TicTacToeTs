@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="winScreen">
+        <h1>Congrats!</h1>
+        <p id="win">Temp</p>
+    </div>
+    <div class="flex-container w3-border">
+        <div class="gameArea">
+            <h1>Welcome to Tic Tac Toe</h1>
+            <button class="w3-btn w3-border" id="gameBegin" onclick="beginGame()">Begin Game?</button>
+            <button class="w3-btn w3-border" onclick="drawGame()">Draw Game</button>
+        </div>
+        <div class="scoreArea w3-border">
+            <h1>Score</h1>
+            <h4 style="width: 30%; display: inline-block;">Wins</h4>
+            <h4 style="width: 30%; display: inline-block;">Draws</h4>
+            <h4 style="width: 30%; display: inline-block;">Losses</h4>
+            <br>
+            <h4 style="width: 30%; display: inline-block;" id="Player">0</h4>
+            <h4 style="width: 30%; display: inline-block;" id="Draw">0</h4>
+            <h4 style="width: 30%; display: inline-block;" id="Computer">0</h4>
+        </div>
+    </div>
+    <div class="board w3-border">
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(1)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(2)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(3)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(4)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(5)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(6)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(7)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(8)">-</button>
+        <button class=" w3-btn w3-border ticTac" onclick="boardClick(9)">-</button>
+
+    </div>
+</body>
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</html>

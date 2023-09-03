@@ -1,0 +1,10 @@
+Goals:
+# Tic Tac Toe Game
+
+# + On click begin game, coin flip who goes first -- user or ai
+# + Let user input a square by clicking on it
+# + after each user move have ai find the best move
+    # + defense
+    # + attack
+# + auto draw
+# + score board

@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gameArea {
+    width: 60%;
+    display: inline-block;
+    order:1;
+}
+.scoreArea {
+    width: 50%;
+    display: inline-block;
+    order:2;
+}
+.board {
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.ticTac {
+    background-color: gray;
+    width: 30%;
+    margin:10px;
+    font-size:x-large;
+}
+.winScreen {
+    position: absolute;
+    padding: 20px;
+    font-size: large;
+    background-color: aliceblue;
+    top: 40%;
+    left: 40%;
+}
+.disabled {
+    display: none;
+}
